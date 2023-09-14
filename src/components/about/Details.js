@@ -4,7 +4,7 @@ import PersonalInfos from "./PersonalInfos";
 
 function Details() {
   return (
-    <div class="details">
+    <div className="details">
       <PersonalInfos />
       <Infos />
       <DownloadCv />

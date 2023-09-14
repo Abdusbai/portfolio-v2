@@ -12,11 +12,11 @@ export default function App() {
         <MouseScroll />
       </header>
       <section id="about">
-        <div class="section">
-          <p class="title">biography</p>
+        <div className="section">
+          <p className="title">biography</p>
           <h2>about me</h2>
-          <div class="section-content">
-            <div class="img-container">
+          <div className="section-content">
+            <div className="img-container">
               <img src="./img/Me.webp" alt="" />
             </div>
 

@@ -135,24 +135,17 @@ body,
   display: none;
 }
 
-.sticky .logo-black {
-  display: block;
-}
-
-.sticky .logo-white {
-  display: none;
-}
-
 .social-icon {
   height: 4rem;
   fill: rgba(0, 0, 0, 0.6);
+  background-color: transparent;
   position: absolute;
   transition: fill .3s ease;
 }
 
 .social-icon:hover{
-  fill: rgba(0, 0, 0, 0.4);
-  
+  fill: rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
 }
 
 .ln {
@@ -303,7 +296,7 @@ body,
 }
 
 .header .hero h1 {
-  font-size: 4.8rem;
+  font-size: 4.3rem;
   font-family: "Montserrat";
   color: #fff;
   text-transform: uppercase;
@@ -329,7 +322,7 @@ body,
   font-size: 2rem;
 }
 
-a#scroll-btn {
+.scroll-btn:link, .scroll-btn:visited {
   position: absolute;
   height: 5rem;
   width: 3rem;
@@ -339,9 +332,10 @@ a#scroll-btn {
   right: 0;
   bottom: 3rem;
   border-radius: 3rem;
+  text-decoration: none;
 }
 
-a#scroll-btn:before {
+.scroll-btn:before {
   position: absolute;
   content: "";
   margin: auto;

@@ -1,6 +1,6 @@
 function MouseScroll() {
   return (
-    <a id="scroll-btn" href="#section-2">
+    <a class="scroll-btn" href="#section-2">
       &nbsp;
     </a>
   );
