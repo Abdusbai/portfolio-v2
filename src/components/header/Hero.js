@@ -1,9 +1,9 @@
 import SocialMediaIcons from "./SocialMediaIcons";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 
-function Hero() {
+function Hero({ t }) {
   const [text] = useTypewriter({
-    words: ["Hi there !", "I'm a Full Stack Developer"],
+    words: [t("HiThere"), t("FSD")],
     loop: true,
     delaySpeed: 1500,
   });

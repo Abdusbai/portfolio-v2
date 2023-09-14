@@ -1,4 +1,4 @@
-function MainFooter() {
+function MainFooter({ t }) {
   const currentDate = new Date();
   return (
     <section>
@@ -6,7 +6,7 @@ function MainFooter() {
         <div class="copyright">
           <dir class="copy-left">
             &copy; Copyright <span id="year">{currentDate.getFullYear()}</span>.
-            Built and designed by{" "}
+            {t("des")}{" "}
             <strong>
               <a
                 href="https://www.linkedin.com/in/sbai-abdessamad/"
@@ -16,7 +16,7 @@ function MainFooter() {
                 SBAI ABDESSAMAD
               </a>
             </strong>
-            . All rights are reserved.
+            . {t("allR")}.
           </dir>
           <div class="copy-right">
             <ul class="social-links-contact">

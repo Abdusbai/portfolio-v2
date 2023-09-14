@@ -1,4 +1,4 @@
-function Navigation() {
+function Navigation({ t, LanguageSwitcher }) {
   return (
     <nav>
       <a href="#home" className="LK logo-icons" rel="noopener noreferrer">
@@ -17,35 +17,33 @@ function Navigation() {
         <ul>
           <li>
             <a className="LK" href="#home">
-              home
+              {t("Home")}
             </a>
           </li>
           <li>
             <a className="LK" href="#about">
-              about
+              {t("About")}
             </a>
           </li>
           <li>
             <a className="LK" href="#skills">
-              skills
+              {t("Skills")}
             </a>
           </li>
           <li>
             <a className="LK" href="#projects">
-              projects
+              {t("Projects")}
             </a>
           </li>
           <li>
             <a className="LK" href="#contact">
-              contact
+              {t("Contact")}
             </a>
           </li>
         </ul>
 
         <span className="btn-lang">
-          <a href="google.com" className="lang-btn">
-            fr
-          </a>
+          <LanguageSwitcher />
         </span>
       </div>
     </nav>

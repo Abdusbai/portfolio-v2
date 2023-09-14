@@ -1,7 +1,7 @@
-function Tools() {
+function Tools({ t }) {
   return (
     <div className="skills-01">
-      <h2>Development Tools</h2>
+      <h2>{t("devT")}</h2>
       <span>
         <img src="./img/git.webp" alt="html" />
         <p>Git</p>

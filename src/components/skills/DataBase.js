@@ -1,7 +1,7 @@
-function DataBase() {
+function DataBase({ t }) {
   return (
     <div className="skills-02">
-      <h2>Database</h2>
+      <h2>{t("db")}</h2>
       <span>
         <img src="./img/Sqlserver.webp" alt="html" />
         <p>SQLServer</p>

@@ -1,15 +1,15 @@
 import Form from "./Form";
 import Social from "./Social";
 
-function MainContact() {
+function MainContact({ t }) {
   return (
     <section className="bg-color" id="contact">
       <div className="section">
         <p className="title">CONTACT</p>
-        <h2>Get in Touch</h2>
+        <h2>{t("contactD")}</h2>
         <div className="section-content-contact-us">
-          <Social />
-          <Form />
+          <Social t={t} />
+          <Form t={t} />
         </div>
       </div>
     </section>

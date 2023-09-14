@@ -1,15 +1,15 @@
-function MyProjects() {
+function MyProjects({ t }) {
   return (
     <div className="section-content-projects">
       <div className="element">
         <img src="./img/sushi-food.webp" alt="sushi-food" />
         <div className="project-content">
           <div className="title-link">
-            <h3>sushi restaurant landing page</h3>
+            <h3>{t("sushi")}</h3>
           </div>
         </div>
         <a href="./projects/suhifood.html">
-          Read more
+          {t("readMore")}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -29,11 +29,11 @@ function MyProjects() {
         <img src="./img/read-logix.webp" alt="sushi-food" />
         <div className="project-content">
           <div className="title-link">
-            <h3>book reading tracker web app</h3>
+            <h3>{t("readLogix")}</h3>
           </div>
         </div>
         <a href="./projects/readlogix.html">
-          Read more
+          {t("readMore")}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -53,11 +53,11 @@ function MyProjects() {
         <img src="./img/assisto.webp" alt="sushi-food" />
         <div className="project-content">
           <div className="title-link">
-            <h3>Chatbot web app</h3>
+            <h3>{t("assisto")}Chatbot web app</h3>
           </div>
         </div>
         <a href="./projects/chatbot.html">
-          Read more
+          {t("readMore")}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -81,7 +81,7 @@ function MyProjects() {
           </div>
         </div>
         <a href="./projects/todolist.html">
-          Read more
+          {t("readMore")}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -101,11 +101,11 @@ function MyProjects() {
         <img src="./img/park-info.webp" alt="sushi-food" />
         <div className="project-content">
           <div className="title-link">
-            <h3>IT asset management web app</h3>
+            <h3>{t("itApp")}</h3>
           </div>
         </div>
         <a href="./projects/parcinfo.html">
-          Read more
+          {t("readMore")}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -129,7 +129,7 @@ function MyProjects() {
           </div>
         </div>
         <a href="./projects/portfolio.html">
-          Read more
+          {t("readMore")}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"

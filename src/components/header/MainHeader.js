@@ -2,11 +2,11 @@ import Hero from "./Hero";
 import MouseScroll from "./MouseScroll";
 import Navigation from "./Navigation";
 
-function MainHeader() {
+function MainHeader({ t, LanguageSwitcher }) {
   return (
     <header className="header" id="home">
-      <Navigation />
-      <Hero />
+      <Navigation t={t} LanguageSwitcher={LanguageSwitcher} />
+      <Hero t={t} />
       <MouseScroll />
     </header>
   );

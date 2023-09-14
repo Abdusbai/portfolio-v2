@@ -1,25 +1,20 @@
-function Form() {
+function Form({ t }) {
   return (
     <div className="right-contact-su">
       <form name="contact" netlify>
-        <input
-          type="text"
-          name="name"
-          required
-          placeholder="Enter your full name"
-        />
+        <input type="text" name="name" required placeholder={t("enterName")} />
         <input
           type="email"
           name="email"
           required
-          placeholder="Enter your email address"
+          placeholder={t("enterMail")}
         />
         <textarea
           required
           name="message"
-          placeholder="Enter your message"
+          placeholder={t("enterMsg")}
         ></textarea>
-        <button className="btn">Submit</button>
+        <button className="btn">{t("submit")}</button>
       </form>
     </div>
   );
