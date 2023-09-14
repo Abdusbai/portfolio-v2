@@ -357,3 +357,113 @@ a#scroll-btn:before {
     opacity: 0;
   }
 }
+
+/*About me*/
+.section {
+  padding: 10rem;
+  max-width: 140rem;
+  margin: 0 auto;
+  transition: transform 1s, opacity 1s;
+}
+
+.section .title {
+  text-transform: uppercase;
+  color: var(--primary-color);
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: 'Poppins';
+  margin-bottom: 1rem;
+}
+
+.section h2 {
+  text-transform: capitalize;
+  font-size: 4rem;
+  font-weight: 800;
+  font-family: 'Poppins';
+  margin-bottom: 7rem;
+}
+
+.section .section-content .img-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.section .section-content img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right;
+}
+
+.section .section-content {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 5rem;
+}
+
+.section .section-content .details .btn,
+.btn {
+  background-color: var(--primary-color);
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  color: #fff;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-transform: uppercase;
+}
+
+.section .section-content .details .btn:hover,
+.btn:hover {
+  background-color: var(--primary-bg-color);
+}
+
+.section .section-content .details h3 {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  font-weight: 800;
+  margin-bottom: 3rem;
+  line-height: 1;
+}
+
+.section .section-content .details p {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+
+.section .section-content .details h3 span,
+.section .section-content .details p span {
+  color: var(--primary-color);
+}
+
+.section .section-content .details .infos {
+  font-size: 1.6rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.section .section-content .details .infos span {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.section .section-content .details .infos span a:link,
+.section .section-content .details .infos span a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.section .section-content .details .infos .icon {
+  height: 2.5rem;
+  color: var(--primary-color);
+}
