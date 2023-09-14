@@ -3,6 +3,7 @@ import MainAbout from "./about/MainAbout";
 import MainSkills from "./skills/MainSkills";
 import MainProject from "./projects/MainProject";
 import MainContact from "./contact/MainContact";
+import MainFooter from "./footer/MainFooter";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <MainSkills />
       <MainProject />
       <MainContact />
+      <MainFooter />
     </>
   );
 }
