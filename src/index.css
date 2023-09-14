@@ -564,3 +564,89 @@ body>section.bg-color>div>div>div:nth-child(3)>h2 {
   height: 5px;
   background-color: #f8f8f8;
 }
+
+/*Projects*/
+
+.section .section-content-projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+}
+
+.section .section-content-projects .element {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  transition: all 0.3s;
+
+}
+
+.section .section-content-projects .element:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.section .section-content-projects img {
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 2rem;
+}
+
+.section .section-content-projects .project-content {
+  padding: 0rem 2rem;
+}
+
+
+.section .section-content-projects .project-content .title-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.section .section-content-projects .project-content span {
+  font-size: 1.4rem;
+  font-weight: 800;
+  padding: .5rem 1rem;
+  border-radius: 555px;
+  text-transform: uppercase;
+}
+
+.done {
+  background-color: #51cf66;
+}
+
+.in-progress {
+  background-color: #fcc419;
+}
+
+
+.section .section-content-projects .project-content h3 {
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+
+.section .section-content-projects .element {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section .section-content-projects .element a:link,
+.section .section-content-projects .element a:visited {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: inherit;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: var(--primary-color);
+  padding: 2rem;
+}
+
+.section .section-content-projects .element .more-icon {
+  height: 2rem;
+  margin-left: .5rem;
+}
