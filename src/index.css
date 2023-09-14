@@ -468,3 +468,99 @@ body,
   height: 2.5rem;
   color: var(--primary-color);
 }
+
+
+/*skills*/
+.bg-color {
+  background-color: #F9F9F9;
+}
+
+.section .section-content-skills {
+  text-align: center;
+}
+
+.section .section-content-skills span {
+  cursor: pointer;
+
+}
+
+.section .section-content-skills span:hover img {
+  transform: translateY(-10px);
+}
+
+.section .section-content-skills span img {
+  height: 12rem;
+  transition: transform 0.3s ease;
+
+}
+
+.section .section-content-skills span p {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.section .section-content-skills .skills {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 4rem;
+}
+
+
+.section .section-content-skills .skills h2,
+.section .section-content-skills .skills-02 h2,
+.section .section-content-skills .skills-01 h2 {
+  position: relative;
+  grid-column: 1/-1;
+}
+
+.section .section-content-skills .skills-02 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 4rem;
+}
+
+.section .section-content-skills .skills-01 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+.section .section-content-skills .skills-02 h2,
+.section .section-content-skills .skills-01 h2,
+body>section.bg-color>div>div>div:nth-child(3)>h2 {
+  margin-top: 7rem;
+}
+
+.section .section-content-skills .skills h2,
+.section .section-content-skills .skills-02 h2,
+.section .section-content-skills .skills-01 h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: inherit;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: grid;
+  grid-template-columns: 15rem max-content 15rem;
+  grid-template-rows: 2.7rem 0;
+  grid-gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+
+}
+
+.section .section-content-skills .skills h2::after,
+.section .section-content-skills .skills h2::before,
+.section .section-content-skills .skills-02 h2::after,
+.section .section-content-skills .skills-02 h2::before,
+.section .section-content-skills .skills-01 h2::after,
+.section .section-content-skills .skills-01 h2::before {
+  content: " ";
+  display: block;
+  border-bottom: 1px solid var(--primary-color);
+  border-top: 1px solid var(--primary-bg-color);
+  height: 5px;
+  background-color: #f8f8f8;
+}
