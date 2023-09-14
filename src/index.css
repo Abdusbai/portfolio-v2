@@ -147,6 +147,12 @@ body,
   height: 4rem;
   fill: rgba(0, 0, 0, 0.6);
   position: absolute;
+  transition: fill .3s ease;
+}
+
+.social-icon:hover{
+  fill: rgba(0, 0, 0, 0.4);
+  
 }
 
 .ln {
@@ -156,6 +162,36 @@ body,
   animation: ln 3s ease-out infinite;
 }
 
+.fb {
+  left: -25%;
+  top: 50%;
+  transform: translateY(-50%);
+  animation: fb 3s ease-out infinite;
+}
+
+.in {
+  right: -25%;
+  top: 50%;
+  transform: translateY(-50%);
+  animation: in 3s ease-out infinite;
+}
+
+.tw {
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  animation: tw 3s ease-out infinite;
+}
+
+
+.gt {
+  top: 0%;
+  right: 0%;
+  transform: translate(50%, -50%);
+  animation: gt 3s ease-out infinite;
+}
+
+/*
 @keyframes ln {
   0% {
     top: -20%;
@@ -170,13 +206,6 @@ body,
   }
 }
 
-.fb {
-  left: -25%;
-  top: 50%;
-  transform: translateY(-50%);
-  animation: fb 3s ease-out infinite;
-}
-
 @keyframes fb {
   0% {
     left: -20%;
@@ -189,15 +218,7 @@ body,
   100% {
     left: -20%;
   }
-}
-
-.in {
-  right: -25%;
-  top: 50%;
-  transform: translateY(-50%);
-  animation: in 3s ease-out infinite;
-}
-
+} 
 
 @keyframes in {
   0% {
@@ -211,13 +232,6 @@ body,
   100% {
     right: -20%;
   }
-}
-
-.tw {
-  top: 0%;
-  left: 0%;
-  transform: translate(-50%, -50%);
-  animation: tw 3s ease-out infinite;
 }
 
 @keyframes tw {
@@ -237,14 +251,7 @@ body,
     left: 6%;
     
   }
-}
-
-.gt {
-  top: 0%;
-  right: 0%;
-  transform: translate(50%, -50%);
-  animation: gt 3s ease-out infinite;
-}
+} 
 
 @keyframes gt {
   0% {
@@ -261,7 +268,7 @@ body,
     top: 6%;
     right: 6%;
   }
-}
+} */
 
 .hero-img {
   position: relative;
