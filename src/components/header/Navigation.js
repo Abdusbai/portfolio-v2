@@ -1,6 +1,9 @@
-function Navigation({ t, LanguageSwitcher }) {
+import MobileBtn from "./MobileBtn";
+import React from "react";
+
+function Navigation({ t, LanguageSwitcher, handleOpen, navigationRef }) {
   return (
-    <nav>
+    <nav ref={navigationRef}>
       <a href="#home" className="LK logo-icons" rel="noopener noreferrer">
         <img
           src="./icons/sbai-logo.png"
@@ -44,6 +47,7 @@ function Navigation({ t, LanguageSwitcher }) {
 
         <span className="btn-lang">
           <LanguageSwitcher />
+          <MobileBtn handleOpen={handleOpen} />
         </span>
       </div>
     </nav>
