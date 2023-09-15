@@ -73,7 +73,7 @@ body.hide-scroll {
   justify-content: space-between;
   height: -webkit-fill-available;
   background-image: linear-gradient(rgba(34, 34, 34, 1), rgba(34, 34, 34, 0.5)),
-    url(../public/img/Me.webp);
+    url(../public/img/ME04.webp);
 }
 
 .header nav {

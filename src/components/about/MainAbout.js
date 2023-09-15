@@ -8,7 +8,7 @@ function MainAbout({ t }) {
         <h2>{t("AboutMe")}</h2>
         <div className="section-content">
           <div className="img-container">
-            <img src="./img/Me.webp" alt="" />
+            <img src="./img/Me_03.webp" alt="" />
           </div>
           <Details t={t} />
         </div>
