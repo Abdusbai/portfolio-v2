@@ -1,9 +1,5 @@
 function MouseScroll() {
-  return (
-    <a className="scroll-btn" href="#section-2">
-      &nbsp;
-    </a>
-  );
+  return <span className="scroll-btn" href="#about"></span>;
 }
 
 export default MouseScroll;

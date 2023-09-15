@@ -1,6 +1,6 @@
 function DownloadCv({ t }) {
   return (
-    <a href="./files/SBAI ABDESSAMAD - CV.pdf" download>
+    <a href={t("cvFile")} download>
       <button className="btn" id="scrollToTopButton">
         {t("downloadCv")}
       </button>

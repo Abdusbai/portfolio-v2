@@ -8,7 +8,11 @@ function MyProjects({ t }) {
             <h3>{t("sushi")}</h3>
           </div>
         </div>
-        <a href="./projects/suhifood.html">
+        <a
+          href="https://github.com/Abdusbai/sushi-sbai"
+          target="_blank"
+          rel="noreferrer"
+        >
           {t("readMore")}
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -26,13 +30,17 @@ function MyProjects({ t }) {
       </div>
 
       <div className="element">
-        <img src="./img/read-logix.webp" alt="sushi-food" />
+        <img src="./img/read-logix.webp" alt="read-logix" />
         <div className="project-content">
           <div className="title-link">
             <h3>{t("readLogix")}</h3>
           </div>
         </div>
-        <a href="./projects/readlogix.html">
+        <a
+          href="https://github.com/Abdusbai/read-logix"
+          target="_blank"
+          rel="noreferrer"
+        >
           {t("readMore")}
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -50,13 +58,17 @@ function MyProjects({ t }) {
       </div>
 
       <div className="element">
-        <img src="./img/assisto.webp" alt="sushi-food" />
+        <img src="./img/assisto.webp" alt="assisto" />
         <div className="project-content">
           <div className="title-link">
-            <h3>{t("assisto")}Chatbot web app</h3>
+            <h3>{t("assisto")}</h3>
           </div>
         </div>
-        <a href="./projects/chatbot.html">
+        <a
+          href="https://github.com/Abdusbai/assisto"
+          target="_blank"
+          rel="noreferrer"
+        >
           {t("readMore")}
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -74,13 +86,17 @@ function MyProjects({ t }) {
       </div>
 
       <div className="element">
-        <img src="./img/todo-list.webp" alt="sushi-food" />
+        <img src="./img/todo-list.webp" alt="todo-list" />
         <div className="project-content">
           <div className="title-link">
             <h3>To do List</h3>
           </div>
         </div>
-        <a href="./projects/todolist.html">
+        <a
+          href="https://github.com/Abdusbai/todo-list"
+          target="_blank"
+          rel="noreferrer"
+        >
           {t("readMore")}
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -98,13 +114,17 @@ function MyProjects({ t }) {
       </div>
 
       <div className="element">
-        <img src="./img/park-info.webp" alt="sushi-food" />
+        <img src="./img/park-info.webp" alt="parc-info" />
         <div className="project-content">
           <div className="title-link">
             <h3>{t("itApp")}</h3>
           </div>
         </div>
-        <a href="./projects/parcinfo.html">
+        <a
+          href="https://github.com/Abdusbai/parc-info"
+          target="_blank"
+          rel="noreferrer"
+        >
           {t("readMore")}
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -122,13 +142,17 @@ function MyProjects({ t }) {
       </div>
 
       <div className="element">
-        <img src="./img/portfolio.webp" alt="sushi-food" />
+        <img src="./img/portfolio.webp" alt="portfolio" />
         <div className="project-content">
           <div className="title-link">
             <h3>Portfolio</h3>
           </div>
         </div>
-        <a href="./projects/portfolio.html">
+        <a
+          href="https://github.com/Abdusbai/portfolio-v2"
+          target="_blank"
+          rel="noreferrer"
+        >
           {t("readMore")}
           <svg
             xmlns="http://www.w3.org/2000/svg"

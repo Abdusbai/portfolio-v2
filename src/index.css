@@ -339,7 +339,7 @@ body,
   font-size: 2rem;
 }
 
-.scroll-btn:link, .scroll-btn:visited {
+.scroll-btn {
   position: absolute;
   height: 5rem;
   width: 3rem;
