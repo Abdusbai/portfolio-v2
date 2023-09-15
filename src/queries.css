@@ -5,15 +5,47 @@
   --white-color: #fff;
 }
 
+@media (max-width: 80em) {
+  #about > div > div > div.details > div > div.infos-left > span:nth-child(3), #about > div > div > div.details > div > div.infos-right > span:nth-child(3){
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .infos-right{
+    margin-right: 4rem;
+  }
+}
+
 @media (max-width: 75em) {
   html {
     font-size: 56.25%;
+  }
+
+  #about > div > div > div.details > div > div.infos-left > span:nth-child(3), #about > div > div > div.details > div > div.infos-right > span:nth-child(3){
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .infos-right{
+    margin-right: 0rem;
   }
 
   .section h2 {
     font-size: 3.6rem;
     margin-bottom: 6rem;
   }
+}
+
+@media (max-width: 73em) {
+.section .section-content .details .infos .child{
+  flex-direction: column !important;
+  align-items: flex-start !important;
+}
+
+.section .section-content .details .infos{
+  justify-content: safe !important;
+  gap: 6rem !important;
+}
 }
 
 @media (max-width: 65em) {
@@ -27,6 +59,8 @@
   html {
     font-size: 50%;
   }
+
+
 
   .section {
     padding: 7rem;
@@ -81,6 +115,16 @@
 }
 
 @media (max-width: 53.5em) {
+  .section .section-content .details .infos .child{
+    flex-direction: row !important;
+    align-items: flex-end !important;
+  }
+  
+  .section .section-content .details .infos{
+    justify-content: space-between !important;
+    gap: 0rem !important;
+  }
+
   .section .section-content-skills .skills {
     grid-template-columns: repeat(4, 1fr);
     row-gap: 1rem;
@@ -265,6 +309,14 @@
     justify-content: space-between;
     padding: 3rem;
     height: 8rem;
+  }
+}
+
+@media (max-width: 33.50em) {
+  .section .section-content .details .infos{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem !important;
   }
 }
 

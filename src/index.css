@@ -447,7 +447,7 @@ body,
   text-transform: capitalize;
   font-weight: 800;
   margin-bottom: 3rem;
-  line-height: 1;
+  line-height: 1.2;
 }
 
 .section .section-content .details p {
@@ -463,13 +463,25 @@ body,
 
 .section .section-content .details .infos {
   font-size: 1.6rem;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin-bottom: 3rem;
 }
 
+.infos-left, .infos-right{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 .section .section-content .details .infos span {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.one-info{
   display: flex;
   align-items: flex-end;
   gap: 1rem;
@@ -580,6 +592,10 @@ body>section.bg-color>div>div>div:nth-child(3)>h2 {
   border-top: 1px solid var(--primary-bg-color);
   height: 5px;
   background-color: #f8f8f8;
+}
+
+#skills > div > div > div.skills-01 > h2{
+  grid-template-columns: 9rem max-content 9rem
 }
 
 /*Projects*/
