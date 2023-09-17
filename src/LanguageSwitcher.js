@@ -10,11 +10,13 @@ function LanguageSwitcher() {
   };
 
   return (
-    <span className="btn-lang">
-      <button onClick={toggleLanguage} className="lang-btn">
-        {i18n.language === "en" ? "FR" : "EN"}
-      </button>
-    </span>
+    <>
+      <span className="btn-lang">
+        <button onClick={toggleLanguage} className="lang-btn">
+          {i18n.language === "en" ? "FR" : "EN"}
+        </button>
+      </span>
+    </>
   );
 }
 

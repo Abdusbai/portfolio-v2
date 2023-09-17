@@ -18,7 +18,7 @@ function Infos({ t }) {
             <strong>{t("Birthday")} : </strong>
           </div>
 
-          <span>18/04/2000</span>
+          <span>{t("BirthdayDesc")}</span>
         </span>
 
         <span className="child">
@@ -37,7 +37,7 @@ function Infos({ t }) {
             </svg>
             <strong>{t("Location")} : </strong>
           </div>
-          <span>SALE, MOROCCO</span>
+          <span>SALE, {t("LocationDesc")}</span>
         </span>
 
         <span className="child">
@@ -94,7 +94,7 @@ function Infos({ t }) {
             </svg>
             <strong>{t("Degree")}: </strong>
           </div>
-          <span>License</span>
+          <span>{t("DegreeDesc")}</span>
         </span>
 
         <span className="child">

@@ -886,7 +886,7 @@ body > section.bg-color > div > div > div:nth-child(3) > h2 {
   overflow: hidden !important;
 }
 
-.loader-container{
+.loader-container {
   width: 100%;
   height: 100vh;
   position: fixed;
@@ -935,4 +935,3 @@ body > section.bg-color > div > div > div:nth-child(3) > h2 {
     stroke-dashoffset: -240.34889px;
   }
 }
-
