@@ -3,7 +3,6 @@ import { useTranslation } from "react-i18next";
 
 function LanguageSwitcher() {
   const { i18n } = useTranslation();
-  const [lang, setLang] = useState("en");
 
   const handleChangeLanguage = (e) => {
     const newLanguage = e.target.value;
