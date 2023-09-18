@@ -206,7 +206,7 @@
   }
 
   .btn-mobile {
-    display: block;
+    display: flex;
     position: relative;
     z-index: 100000;
   }
@@ -294,7 +294,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
   }
 
   .lang-btn:link,
@@ -307,6 +307,7 @@
     align-items: center;
     justify-content: space-between;
     height: 8rem;
+    padding-right: 1.7rem;
   }
 }
 
