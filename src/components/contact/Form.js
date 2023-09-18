@@ -15,7 +15,9 @@ function Form({ t }) {
           name="message"
           placeholder={t("enterMsg")}
         ></textarea>
-        <button className="btn">{t("submit")}</button>
+        <button className="btn" type="submit">
+          {t("submit")}
+        </button>
       </form>
     </div>
   );
