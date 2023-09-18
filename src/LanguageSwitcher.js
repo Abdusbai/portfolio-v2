@@ -16,8 +16,8 @@ function LanguageSwitcher() {
         value={i18n.language}
         onChange={handleChangeLanguage}
       >
-        <option value="en">English</option>
-        <option value="fr">Français</option>
+        <option value="en">EN</option>
+        <option value="fr">FR</option>
       </select>
       {/* <span className="btn-lang">
         <button onClick={toggleLanguage} className="lang-btn">
