@@ -1,7 +1,7 @@
 function Form({ t }) {
   return (
     <div className="right-contact-su">
-      <form name="contact" netlify>
+      <form name="contact" method="POST" data-netlify="true">
         <input type="text" name="name" required placeholder={t("enterName")} />
         <input
           type="email"
