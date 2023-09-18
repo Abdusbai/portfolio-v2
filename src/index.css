@@ -126,12 +126,6 @@ body.hide-scroll {
   gap: 3.6rem;
 }
 
-.no-flexbox-gap .header nav .main-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 3.6rem;
-}
-
 .header nav .main-nav ul li {
   text-decoration: none;
 }
