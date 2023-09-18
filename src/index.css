@@ -23,7 +23,10 @@
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+  /* height: 100vh;
   height: -webkit-fill-available;
+  height: -moz-available; */
+  height: 100vh;
 }
 
 body,
@@ -32,7 +35,10 @@ body,
   line-height: 1;
   font-weight: 400;
   color: #333;
-  height: -webkit-fill-available;
+  /* height: 100vh;
+  
+  height: -moz-available; */
+  height: 100vh;
   position: relative;
 }
 
@@ -46,6 +52,7 @@ body.hide-scroll {
   background: none;
   cursor: pointer;
   display: none;
+  position: fixed;
 }
 
 .icon-mobile {
@@ -70,6 +77,7 @@ body.hide-scroll {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-height: 100svh;
   height: -webkit-fill-available;
   background-image: linear-gradient(rgba(34, 34, 34, 1), rgba(34, 34, 34, 0.5)),
     url(../public/img/ME04.webp);
