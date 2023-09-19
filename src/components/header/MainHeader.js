@@ -69,17 +69,13 @@ function MainHeader({ t, LanguageSwitcher }) {
           const href = link.getAttribute("href");
           if (href) {
             if (href !== "#" && href.startsWith("#")) {
-              allLinks.forEach(function (otherLink) {
-                otherLink.classList.remove("active");
-              });
-              link.classList.add("active");
               const sectionEl = document.querySelector(href);
               sectionEl.scrollIntoView({ behavior: "smooth" });
             }
           }
 
           sectionHeroEl.classList.remove("nav-open");
-          setIsOpen((e) => false);
+          setIsOpen(() => false);
         });
       });
     }

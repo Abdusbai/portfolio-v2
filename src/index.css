@@ -148,6 +148,8 @@ body.hide-scroll {
 .header nav .main-nav ul li a:link,
 .header nav .main-nav ul li a:visited {
   color: #fff;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s ease-in;
 }
 
 .header nav .main-nav ul li a:hover,
@@ -791,7 +793,7 @@ body > section.bg-color > div > div > div:nth-child(3) > h2 {
   border: none;
   color: inherit;
   font-family: inherit;
-  border-bottom: 3px solid transparent;
+  border-bottom: 3px solid transparent !important;
   width: 100%;
   display: block;
   margin-bottom: 2rem;
@@ -814,7 +816,7 @@ body > section.bg-color > div > div > div:nth-child(3) > h2 {
 
 .section .section-content-contact-us .right-contact-su form input:focus,
 .section .section-content-contact-us .right-contact-su form textarea:focus {
-  border-bottom-color: var(--primary-color);
+  border-bottom-color: var(--primary-color) !important;
 }
 
 /*Footer*/

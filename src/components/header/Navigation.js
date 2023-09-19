@@ -19,7 +19,7 @@ function Navigation({ t, LanguageSwitcher, handleOpen, navigationRef }) {
       <div className="main-nav">
         <ul>
           <li>
-            <a className="LK" href="#home">
+            <a className="LK active" href="#home">
               {t("Home")}
             </a>
           </li>
@@ -39,7 +39,7 @@ function Navigation({ t, LanguageSwitcher, handleOpen, navigationRef }) {
             </a>
           </li>
           <li>
-            <a className="LK" href="#contact">
+            <a className="LK" href="#contactMe">
               {t("Contact")}
             </a>
           </li>

@@ -3,7 +3,7 @@ import Social from "./Social";
 
 function MainContact({ t }) {
   return (
-    <section className="bg-color" id="contact">
+    <section className="bg-color" id="contactMe">
       <div className="section">
         <p className="title">CONTACT</p>
         <h2>{t("contactD")}</h2>
