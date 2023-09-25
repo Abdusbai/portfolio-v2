@@ -540,6 +540,7 @@ body.hide-scroll {
 .section .section-content-skills .skills {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
+  row-gap: 4rem;
   column-gap: 4rem;
 }
 
@@ -548,6 +549,9 @@ body.hide-scroll {
 .section .section-content-skills .skills-01 h2 {
   position: relative;
   grid-column: 1/-1;
+}
+.skills > span:nth-child(8) {
+  grid-column: 3/3;
 }
 
 .section .section-content-skills .skills-02 {

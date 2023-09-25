@@ -26,6 +26,14 @@ function FrontEnd() {
         <img src="./img/React.webp" alt="html" />
         <p>React</p>
       </span>
+      <span>
+        <img src="./img/Vite.webp" alt="html" />
+        <p>Vite</p>
+      </span>
+      <span>
+        <img src="./img/Tailwind.webp" alt="html" />
+        <p>Tailwindcss</p>
+      </span>
     </div>
   );
 }
